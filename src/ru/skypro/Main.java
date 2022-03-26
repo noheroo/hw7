@@ -12,6 +12,7 @@ public class Main {
     task6();
     task7();
     task8();
+    otherTask();
     }
 
     public static void task12() {
@@ -88,6 +89,16 @@ public class Main {
             if (arr[i] == arr[i + 1]) {
                 System.out.print(arr[i]);
             }
+        }
+    }
+
+    public static void otherTask(){
+        System.out.printf("%n %nЕщё одна задача %n");
+        String s = "Jane is often told to give presentations in English.";
+        String[] tokens = s.split(" ");
+        System.out.println("Количество токенов " + tokens.length + ". Токены:");
+        for (String token : tokens) {
+            System.out.println(token);
         }
     }
 }
